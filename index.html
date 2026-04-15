@@ -20,9 +20,9 @@
 
     /* ── Typography — 발표장 맨 뒷자리용 ── */
     .section-num { font-size: 18px; letter-spacing: 4px; text-transform: uppercase; color: #aaa; margin-bottom: 16px; font-weight: 500; }
-    .hero-title { font-size: clamp(52px, 8vw, 110px); font-weight: 900; line-height: 1.1; color: #111; white-space: nowrap; }
-    .hero-sub { font-size: clamp(22px, 3vw, 36px); font-weight: 300; color: #666; margin-top: 24px; line-height: 1.5; white-space: nowrap; }
-    .section-title { font-size: clamp(36px, 5.5vw, 72px); font-weight: 800; line-height: 1.2; margin-bottom: 24px; color: #111; white-space: nowrap; }
+    .hero-title { font-size: clamp(52px, 8vw, 110px); font-weight: 900; line-height: 1.1; color: #111; }
+    .hero-sub { font-size: clamp(22px, 3vw, 36px); font-weight: 300; color: #666; margin-top: 24px; line-height: 1.5; }
+    .section-title { font-size: clamp(36px, 5.5vw, 72px); font-weight: 800; line-height: 1.2; margin-bottom: 24px; color: #111; }
     .section-desc { font-size: clamp(20px, 2.2vw, 28px); color: #666; line-height: 1.7; max-width: 900px; }
 
     .highlight { color: #7c3aed; }
@@ -58,8 +58,8 @@
     }
     .pain-card:hover { transform: translateY(-6px); box-shadow: 0 20px 40px rgba(0,0,0,0.08); }
     .pain-card .num { font-size: 44px; font-weight: 900; color: #ddd; margin-bottom: 14px; line-height: 1; }
-    .pain-card h4 { font-size: 22px; font-weight: 700; margin-bottom: 10px; white-space: nowrap; }
-    .pain-card p { font-size: 18px; color: #888; line-height: 1.6; white-space: nowrap; }
+    .pain-card h4 { font-size: 22px; font-weight: 700; margin-bottom: 10px; }
+    .pain-card p { font-size: 18px; color: #888; line-height: 1.6; }
 
     /* ── Process steps ── */
     .process-steps { display: flex; gap: 0; margin-top: 44px; flex-wrap: wrap; }
@@ -69,14 +69,14 @@
     }
     .step:first-child { border-left: none; }
     .step-num { font-size: 14px; letter-spacing: 3px; color: #7c3aed; margin-bottom: 12px; font-weight: 800; }
-    .step h4 { font-size: 22px; font-weight: 700; margin-bottom: 10px; white-space: nowrap; }
-    .step p { font-size: 17px; color: #888; line-height: 1.6; white-space: nowrap; }
+    .step h4 { font-size: 22px; font-weight: 700; margin-bottom: 10px; }
+    .step p { font-size: 17px; color: #888; line-height: 1.6; }
 
     /* ── Metrics ── */
     .metrics { display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; margin-top: 48px; }
     .metric { text-align: center; }
     .metric .value { font-size: clamp(48px, 7vw, 80px); font-weight: 900; color: #7c3aed; line-height: 1.1; white-space: nowrap; }
-    .metric .label { font-size: 20px; color: #888; margin-top: 12px; line-height: 1.5; white-space: nowrap; }
+    .metric .label { font-size: 20px; color: #888; margin-top: 12px; line-height: 1.5; }
 
     /* ── Video ── */
     .video-wrap {
@@ -111,8 +111,8 @@
     }
     .cat-card:hover { transform: translateY(-6px); box-shadow: 0 20px 40px rgba(0,0,0,0.08); }
     .cat-card .icon { font-size: 48px; margin-bottom: 18px; }
-    .cat-card h4 { font-size: 22px; font-weight: 700; margin-bottom: 10px; white-space: nowrap; }
-    .cat-card p { font-size: 17px; color: #888; line-height: 1.5; white-space: nowrap; }
+    .cat-card h4 { font-size: 22px; font-weight: 700; margin-bottom: 10px; }
+    .cat-card p { font-size: 17px; color: #888; line-height: 1.5; }
 
     /* ── Image showcase ── */
     .img-showcase { border-radius: 20px; overflow: hidden; box-shadow: 0 16px 48px rgba(0,0,0,0.1); }
@@ -127,14 +127,14 @@
       width: 12px; height: 12px; border-radius: 50%;
       background: #7c3aed; box-shadow: 0 0 0 4px #ede9fe;
     }
-    .timeline-item h4 { font-size: 22px; font-weight: 700; margin-bottom: 8px; white-space: nowrap; }
-    .timeline-item p { font-size: 18px; color: #888; line-height: 1.6; white-space: nowrap; }
+    .timeline-item h4 { font-size: 22px; font-weight: 700; margin-bottom: 8px; }
+    .timeline-item p { font-size: 18px; color: #888; line-height: 1.6; }
 
     /* ── Flow ── */
     .flow { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin-top: 36px; justify-content: center; }
     .flow-item {
       background: #f5f5f5; border: 1px solid #e5e5e5; border-radius: 14px;
-      padding: 18px 24px; font-size: 18px; font-weight: 600; white-space: nowrap;
+      padding: 18px 24px; font-size: 18px; font-weight: 600;
     }
     .flow-item.active { background: #ede9fe; border-color: #c4b5fd; color: #7c3aed; }
     .flow-item.dim { opacity: 0.3; }
@@ -168,9 +168,6 @@
       .flow { gap: 8px; }
       .metrics { grid-template-columns: 1fr; }
       .metric .value { font-size: clamp(36px, 10vw, 60px); }
-      .hero-title, .hero-sub, .section-title { white-space: normal; }
-      .pain-card h4, .pain-card p, .step h4, .step p, .cat-card h4, .cat-card p,
-      .timeline-item h4, .timeline-item p, .metric .label, .flow-item { white-space: normal; }
     }
   </style>
 </head>
@@ -612,8 +609,20 @@
   </div>
 </section>
 
-<!-- ══ 25. SNS — RESULT ══ -->
-<section class="bg-green" data-slide="25">
+<!-- ══ 25. SNS — VIDEO ══ -->
+<section class="bg-gray" data-slide="25">
+  <div class="inner" style="text-align:center;">
+    <div class="section-num">05 SNS 에디터 — 데모</div>
+    <div class="video-wrap" onclick="toggleVideo(this)">
+      <video src="images/sns_video.mov" preload="metadata" playsinline></video>
+      <div class="play-btn"></div>
+    </div>
+    <div class="video-caption">클릭하여 재생 — SNS 에디터 데모</div>
+  </div>
+</section>
+
+<!-- ══ 26. SNS — RESULT ══ -->
+<section class="bg-green" data-slide="26">
   <div class="inner" style="text-align:center;">
     <div class="section-num">05 SNS 에디터 — 결과</div>
     <h2 class="section-title">결과</h2>
@@ -622,18 +631,6 @@
       <div class="metric"><div class="value">클릭 1번</div><div class="label">다양한 포맷/톤으로 공유용 글 추출</div></div>
       <div class="metric"><div class="value">0번</div><div class="label">핵심 메시지 오해석</div></div>
     </div>
-  </div>
-</section>
-
-<!-- ══ 26. SNS — VIDEO ══ -->
-<section class="bg-gray" data-slide="26">
-  <div class="inner" style="text-align:center;">
-    <div class="section-num">05 SNS 에디터 — 데모</div>
-    <div class="video-wrap" onclick="toggleVideo(this)">
-      <video src="images/sns_video.mov" preload="metadata" playsinline></video>
-      <div class="play-btn"></div>
-    </div>
-    <div class="video-caption">클릭하여 재생 — SNS 에디터 데모</div>
   </div>
 </section>
 
@@ -675,8 +672,20 @@
   </div>
 </section>
 
-<!-- ══ 29. CHART — RESULT ══ -->
-<section class="bg-green" data-slide="29">
+<!-- ══ 29. CHART — VIDEO ══ -->
+<section class="bg-gray" data-slide="29">
+  <div class="inner" style="text-align:center;">
+    <div class="section-num">06 차트 스튜디오 — 데모</div>
+    <div class="video-wrap" onclick="toggleVideo(this)">
+      <video src="images/chart_video.mp4" preload="metadata" playsinline></video>
+      <div class="play-btn"></div>
+    </div>
+    <div class="video-caption">클릭하여 재생 — 차트 스튜디오 데모</div>
+  </div>
+</section>
+
+<!-- ══ 30. CHART — RESULT ══ -->
+<section class="bg-green" data-slide="30">
   <div class="inner" style="text-align:center;">
     <div class="section-num">06 데이터 장표 — 결과</div>
     <h2 class="section-title">결과</h2>
@@ -685,18 +694,6 @@
       <div class="metric"><div class="value">엑셀만 있으면!</div><div class="label">별도 가공 없이 누구나 톤앤매너에 맞는 장표</div></div>
       <div class="metric"><div class="value">세부 편집 OK</div><div class="label">기본 편집 + 피그마 복사로 세부 편집 가능</div></div>
     </div>
-  </div>
-</section>
-
-<!-- ══ 30. CHART — VIDEO ══ -->
-<section class="bg-gray" data-slide="30">
-  <div class="inner" style="text-align:center;">
-    <div class="section-num">06 차트 스튜디오 — 데모</div>
-    <div class="video-wrap" onclick="toggleVideo(this)">
-      <video src="images/chart_video.mp4" preload="metadata" playsinline></video>
-      <div class="play-btn"></div>
-    </div>
-    <div class="video-caption">클릭하여 재생 — 차트 스튜디오 데모</div>
   </div>
 </section>
 
